@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "noclip-addon",
+  "version": "1.0.0",
+  "name": "Noclip Addon",
+  "description": "Adds a Noclip module to Meteor Client.",
+  "authors": ["clipfarms"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor-client": ["com.clipfarms.noclip.NoclipAddon"]
+  },
+  "depends": {
+    "java": ">=21",
+    "meteor-client": "*"
+  }
+}
